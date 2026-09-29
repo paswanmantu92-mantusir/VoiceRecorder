@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "45955985639",
+    "project_id": "termux-apps",
+    "storage_bucket": "termux-apps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45955985639:android:10826334aba6d9f230b242",
+        "android_client_info": {
+          "package_name": "com.example.voicerecorder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXr1te3wlk_O_Mc1ISW6xGlRG5SiOYchE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

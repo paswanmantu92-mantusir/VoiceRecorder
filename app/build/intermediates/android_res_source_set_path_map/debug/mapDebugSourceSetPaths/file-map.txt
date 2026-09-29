@@ -1,0 +1,15 @@
+com.example.voicerecorder.app-datastore-release-0 /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/034530d8d8e4c889eddb1adbd767fa59/transformed/datastore-release/res
+com.example.voicerecorder.app-core-1.2.0-1 /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/1897942ca78e215379ccb82dea6225e1/transformed/core-1.2.0/res
+com.example.voicerecorder.app-datastore-preferences-core-release-2 /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/5267880e5692bc8c83d7246e4b4ba161/transformed/datastore-preferences-core-release/res
+com.example.voicerecorder.app-datastore-preferences-release-3 /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/5c826020801b223d0f5a70c28707b04f/transformed/datastore-preferences-release/res
+com.example.voicerecorder.app-firebase-common-22.2.1-4 /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/res
+com.example.voicerecorder.app-play-services-basement-18.9.0-5 /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e9b3460673ea0b43d59aeb42d148c1f0/transformed/play-services-basement-18.9.0/res
+com.example.voicerecorder.app-datastore-core-release-6 /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/fbbe8e5bc1c53d416cc9c1ec8d5036ce/transformed/datastore-core-release/res
+com.example.voicerecorder.app-pngs-7 /data/data/com.termux/files/home/VoiceRecorder/app/build/generated/res/pngs/debug
+com.example.voicerecorder.app-res-8 /data/data/com.termux/files/home/VoiceRecorder/app/build/generated/res/processDebugGoogleServices
+com.example.voicerecorder.app-updated_navigation_xml-9 /data/data/com.termux/files/home/VoiceRecorder/app/build/generated/updated_navigation_xml/debug
+com.example.voicerecorder.app-packageDebugResources-10 /data/data/com.termux/files/home/VoiceRecorder/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.voicerecorder.app-packageDebugResources-11 /data/data/com.termux/files/home/VoiceRecorder/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.voicerecorder.app-debug-12 /data/data/com.termux/files/home/VoiceRecorder/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.voicerecorder.app-debug-13 /data/data/com.termux/files/home/VoiceRecorder/app/src/debug/res
+com.example.voicerecorder.app-main-14 /data/data/com.termux/files/home/VoiceRecorder/app/src/main/res

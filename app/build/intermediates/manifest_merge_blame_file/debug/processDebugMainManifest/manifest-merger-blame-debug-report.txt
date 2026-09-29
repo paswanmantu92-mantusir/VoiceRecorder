@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.voicerecorder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:4:5-71
+11-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:4:22-68
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:22:5-79
+12-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:22:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:23:5-67
+13-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:23:22-64
+14
+15    <application
+15-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:6:5-22:19
+16        android:allowBackup="true"
+16-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:7:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.2.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/1897942ca78e215379ccb82dea6225e1/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@drawable/ic_mic"
+20-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:8:9-40
+21        android:label="@string/app_name"
+21-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:9:9-41
+22        android:theme="@style/AppTheme" >
+22-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:10:9-40
+23        <activity
+23-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:12:9-21:20
+24            android:name="com.example.voicerecorder.MainActivity"
+24-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:13:13-41
+25            android:exported="true" >
+25-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:14:13-36
+26            <intent-filter>
+26-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:16:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:17:17-69
+27-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:18:17-77
+29-->/data/data/com.termux/files/home/VoiceRecorder/app/src/main/AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <service
+33-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:26:9-35:19
+34            android:name="com.google.firebase.components.ComponentDiscoveryService"
+34-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:27:13-84
+35            android:directBootAware="true"
+35-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:32:13-43
+36            android:exported="false" >
+36-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:28:13-37
+37            <meta-data
+37-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:29:13-31:85
+38                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+38-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:30:17-128
+39                android:value="com.google.firebase.components.ComponentRegistrar" />
+39-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:31:17-82
+40            <meta-data
+40-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:32:13-34:85
+41                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+41-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:33:17-117
+42                android:value="com.google.firebase.components.ComponentRegistrar" />
+42-->[com.google.firebase:firebase-config:23.1.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/c50f254cdbbf439288c848348d0d4e6b/transformed/firebase-config-23.1.0/AndroidManifest.xml:34:17-82
+43            <meta-data
+43-->[com.google.firebase:firebase-installations:19.1.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/4df61ff9d49a88f23667c80cce152ca6/transformed/firebase-installations-19.1.2/AndroidManifest.xml:15:13-17:85
+44                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+44-->[com.google.firebase:firebase-installations:19.1.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/4df61ff9d49a88f23667c80cce152ca6/transformed/firebase-installations-19.1.2/AndroidManifest.xml:16:17-130
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-installations:19.1.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/4df61ff9d49a88f23667c80cce152ca6/transformed/firebase-installations-19.1.2/AndroidManifest.xml:17:17-82
+46            <meta-data
+46-->[com.google.firebase:firebase-installations:19.1.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/4df61ff9d49a88f23667c80cce152ca6/transformed/firebase-installations-19.1.2/AndroidManifest.xml:18:13-20:85
+47                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+47-->[com.google.firebase:firebase-installations:19.1.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/4df61ff9d49a88f23667c80cce152ca6/transformed/firebase-installations-19.1.2/AndroidManifest.xml:19:17-127
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-installations:19.1.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/4df61ff9d49a88f23667c80cce152ca6/transformed/firebase-installations-19.1.2/AndroidManifest.xml:20:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:35:13-37:85
+50                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+50-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:36:17-109
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:37:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-abt:21.1.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/54e863a5e22b4755954e1eb2acea58ab/transformed/firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+53                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+53-->[com.google.firebase:firebase-abt:21.1.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/54e863a5e22b4755954e1eb2acea58ab/transformed/firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-abt:21.1.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/54e863a5e22b4755954e1eb2acea58ab/transformed/firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+55        </service>
+56
+57        <provider
+57-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:23:9-28:39
+58            android:name="com.google.firebase.provider.FirebaseInitProvider"
+58-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:24:13-77
+59            android:authorities="com.example.voicerecorder.firebaseinitprovider"
+59-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:25:13-72
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:26:13-43
+61            android:exported="false"
+61-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:27:13-37
+62            android:initOrder="100" />
+62-->[com.google.firebase:firebase-common:22.2.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/91dfd6444fbcda9f49e57f2ce7cec47a/transformed/firebase-common-22.2.1/AndroidManifest.xml:28:13-36
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:18.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e9b3460673ea0b43d59aeb42d148c1f0/transformed/play-services-basement-18.9.0/AndroidManifest.xml:21:9-23:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:18.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e9b3460673ea0b43d59aeb42d148c1f0/transformed/play-services-basement-18.9.0/AndroidManifest.xml:22:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:18.9.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e9b3460673ea0b43d59aeb42d148c1f0/transformed/play-services-basement-18.9.0/AndroidManifest.xml:23:13-66
+67    </application>
+68
+69</manifest>

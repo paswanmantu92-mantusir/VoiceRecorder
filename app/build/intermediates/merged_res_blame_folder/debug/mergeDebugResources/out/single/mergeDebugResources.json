@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.example.voicerecorder.app-debug-11:/drawable_ic_mic.xml.flat",
+        "source": "com.example.voicerecorder.app-main-13:/drawable/ic_mic.xml"
+    }
+]

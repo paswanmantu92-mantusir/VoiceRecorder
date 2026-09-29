@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">45955985639</string>
+    <string name="google_api_key" translatable="false">AIzaSyDXr1te3wlk_O_Mc1ISW6xGlRG5SiOYchE</string>
+    <string name="google_app_id" translatable="false">1:45955985639:android:10826334aba6d9f230b242</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDXr1te3wlk_O_Mc1ISW6xGlRG5SiOYchE</string>
+    <string name="google_storage_bucket" translatable="false">termux-apps.firebasestorage.app</string>
+    <string name="project_id" translatable="false">termux-apps</string>
+</resources>
